@@ -1,5 +1,5 @@
 import { Typography, Stack } from "@mui/material";
-import MaximizeIcon from "@mui/icons-material/Maximize";
+import { LineIcon } from "./LineIcon";
 
 interface Props {
   title: String;
@@ -9,27 +9,41 @@ export const SubTitle = ({ title }: Props) => {
   return (
     <>
       <Stack
-        spacing={1}
+        spacing={2}
         sx={{ alignItems: "center", justifyContent: "center" }}
       >
         <Typography
           variant="h2"
           sx={{
             textAlign: "center",
-            fontWeight: 700,
-            fontFamily: '"M PLUS Rounded 1c", sans-serif',
+            fontWeight: 800,
             mt: 3,
             pt: 3,
             fontSize: {
-              xs: 20,
-              sm: 20,
-              md: 30,
+              xs: 25,
+              sm: 25,
+              md: 40,
             },
           }}
         >
           {title}
         </Typography>
-        <MaximizeIcon fontSize="large" color="secondary" />
+        <LineIcon />
+        <Typography
+          variant="h2"
+          sx={{
+            textAlign: "center",
+            fontWeight: 500,
+            fontSize: {
+              xs: 17,
+              sm: 15,
+              md: 20,
+            },
+          }}
+        >
+          Here you will find more information about me, what I do, and my
+          current skills
+        </Typography>
       </Stack>
     </>
   );

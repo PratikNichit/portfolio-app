@@ -62,7 +62,13 @@ export const Intro = () => {
             mt: 4,
             borderRadius: 80,
           }}
-        ></Box>
+        >
+          <img
+            src="src\assets\image.png"
+            style={{ width: "100%", height: "100%", borderRadius: 150 }}
+            alt="Hello"
+          />
+        </Box>
         <Box
           sx={{
             "@keyframes bounce": {
