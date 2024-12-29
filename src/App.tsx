@@ -7,16 +7,16 @@ import { About } from "./About";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#ffffff",
-      contrastText: "#000000", // Text color on primary background
+      main: "#ffffff", // primary
+      contrastText: "#000000",
     },
     secondary: {
-      main: "#7610f7", // Secondary color
-      contrastText: "#000000", // Text color on secondary background
+      main: "#7610f7", // Secondary
+      contrastText: "#ffff",
     },
     warning: {
-      main: "#ffa726", // Warning color (e.g., amber)
-      contrastText: "#000000", // Text color on warning background
+      main: "#ffa726", // Warning
+      contrastText: "#000000",
     },
   },
   typography: {
