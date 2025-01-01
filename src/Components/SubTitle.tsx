@@ -3,9 +3,10 @@ import { LineIcon } from "./LineIcon";
 
 interface Props {
   title: String;
+  description: String;
 }
 
-export const SubTitle = ({ title }: Props) => {
+export const SubTitle = ({ title, description }: Props) => {
   return (
     <>
       <Stack
@@ -41,8 +42,7 @@ export const SubTitle = ({ title }: Props) => {
             },
           }}
         >
-          Here you will find more information about me, what I do, and my
-          current skills
+          {description}
         </Typography>
       </Stack>
     </>
