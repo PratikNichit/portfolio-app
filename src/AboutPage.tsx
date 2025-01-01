@@ -1,34 +1,26 @@
 import { Box, Container, Typography, Button, Grid, Chip } from "@mui/material";
 import { SubTitle } from "./Components/SubTitle";
 import { SelfInfo } from "./Components/SelfInfo";
+import data from "./data.json";
 
-const skills = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "React Native",
-  "Node",
-  "Express.js",
-  "MongoDB",
-  "MySql",
-  "ShellScript",
-  "MicroSoft Azure",
-  "next.js",
-  "tailwind.css",
-  "Material UI",
-  "ASP .net",
-  "java",
-  "Git",
-  "GitHub",
-];
+interface AboutMePage {
+  para1: string;
+  para2: string;
+  para3: string;
+  skills: string[];
+}
 
-export const About = () => {
+const aboutData: AboutMePage = data.aboutMePage;
+
+export const AboutPage = () => {
   return (
     <Box sx={{ backgroundColor: "#fcfcfc" }}>
       <Container sx={{ margin: "10px auto" }}>
-        <SubTitle title="About Me" />
+        <SubTitle
+          title="About Me"
+          description="Here you will find more information about me, what I do, and my
+          current skills"
+        />
         <Grid container spacing={5} sx={{ mt: 5 }}>
           {/* Left Section */}
           <Grid item xs={12} sm={6}>
@@ -48,13 +40,17 @@ export const About = () => {
                 Get to Know Me !
               </Typography>
               <Typography>
-                <SelfInfo />
+                <SelfInfo
+                  para1={aboutData.para1}
+                  para2={aboutData.para2}
+                  para3={aboutData.para3}
+                />
               </Typography>
               <Button
                 variant="contained"
                 size="large"
                 color="secondary"
-                sx={{ my: 2 }}
+                sx={{ my: 4 }}
               >
                 Contact Me
               </Button>
@@ -79,7 +75,7 @@ export const About = () => {
                 My Skills
               </Typography>
               <Box sx={{ display: "flex", flexWrap: "wrap", gap: 2 }}>
-                {skills.map((skill) => (
+                {aboutData.skills.map((skill) => (
                   <Chip
                     key={skill}
                     label={skill}

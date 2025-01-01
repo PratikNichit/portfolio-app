@@ -1,7 +1,14 @@
 import { Container, Typography, Box } from "@mui/material";
 import KeyboardArrowDownSharpIcon from "@mui/icons-material/KeyboardArrowDownSharp";
+import data from "./data.json";
 
-export const Intro = () => {
+interface Info {
+  name: string;
+  emailId: string;
+}
+
+const info: Info = data.info;
+export const IntroPage = () => {
   return (
     <Container>
       <div
@@ -24,7 +31,7 @@ export const Intro = () => {
             },
           }}
         >
-          Hey, I'm Pratik Nichit
+          Hey, I'm {info.name}
         </Typography>
         <Typography
           variant="h5"
