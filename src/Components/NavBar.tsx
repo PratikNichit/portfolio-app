@@ -1,6 +1,12 @@
-import { AppBar, Toolbar, Button, Box } from "@mui/material";
+import { AppBar, Toolbar, Button, Box, Modal } from "@mui/material";
+import { useState } from "react";
+import { FormModal } from "./FormModal";
 
 export const NavBar = () => {
+  const [open, setOpen] = useState(false);
+
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
   return (
     <AppBar
       position="static"
@@ -41,6 +47,7 @@ export const NavBar = () => {
           variant="outlined"
           color="secondary"
           size="large"
+          onClick={handleOpen}
           sx={{
             textTransform: "none",
             fontSize: {
@@ -60,6 +67,9 @@ export const NavBar = () => {
           Say Hello
         </Button>
       </Toolbar>
+      <Modal open={open} onClose={handleClose}>
+        <FormModal handleClose={handleClose} />
+      </Modal>
     </AppBar>
   );
 };

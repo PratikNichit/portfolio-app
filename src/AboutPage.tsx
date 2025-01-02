@@ -1,7 +1,17 @@
-import { Box, Container, Typography, Button, Grid, Chip } from "@mui/material";
+import {
+  Box,
+  Container,
+  Typography,
+  Button,
+  Grid,
+  Chip,
+  Modal,
+} from "@mui/material";
 import { SubTitle } from "./Components/SubTitle";
 import { SelfInfo } from "./Components/SelfInfo";
 import data from "./data.json";
+import { useState } from "react";
+import { FormModal } from "./Components/FormModal";
 
 interface AboutMePage {
   para1: string;
@@ -13,6 +23,10 @@ interface AboutMePage {
 const aboutData: AboutMePage = data.aboutMePage;
 
 export const AboutPage = () => {
+  const [open, setOpen] = useState(false);
+
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
   return (
     <Box sx={{ backgroundColor: "#fcfcfc" }}>
       <Container sx={{ margin: "10px auto" }}>
@@ -51,6 +65,7 @@ export const AboutPage = () => {
                 size="large"
                 color="secondary"
                 sx={{ my: 4 }}
+                onClick={handleOpen}
               >
                 Contact Me
               </Button>
@@ -97,6 +112,9 @@ export const AboutPage = () => {
           </Grid>
         </Grid>
       </Container>
+      <Modal open={open} onClose={handleClose}>
+        <FormModal handleClose={handleClose} />
+      </Modal>
     </Box>
   );
 };

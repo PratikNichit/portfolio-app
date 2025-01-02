@@ -5,6 +5,7 @@ import { IntroPage } from "./IntroPage";
 import { AboutPage } from "./AboutPage";
 import { ExperiencePage } from "./ExperiencePage";
 import { ProjectPage } from "./ProjectPage";
+import { ContactMe } from "./ContactMe";
 
 const ProjectList = [
   {
@@ -85,6 +86,10 @@ const theme = createTheme({
       main: "#ffa726", // Warning
       contrastText: "#000000",
     },
+    info: {
+      main: "#000000", // Warning
+      contrastText: "#000000",
+    },
   },
   typography: {
     fontFamily: "Quicksand, Inconsolata, Arial, sans-serif",
@@ -101,6 +106,7 @@ function App() {
         <AboutPage />
         <ExperiencePage />
         <ProjectPage ProjectList={ProjectList} />
+        <ContactMe />
       </Stack>
     </ThemeProvider>
   );
