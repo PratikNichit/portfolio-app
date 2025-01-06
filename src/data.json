@@ -3,17 +3,16 @@
     "name": "Pratik Nichit",
     "emailId": "nichitpratik2004@gmail.com"
   },
-
   "social": {
     "linkedInUrl": "https://www.linkedin.com/in/pratik-nichit-a58a83206/",
-    "gitHubUrl": " https://github.com/PratikNichit",
-    "instagramUrl": "https://www.instagram.com/pratik_nichit14/"
+    "gitHubUrl": "https://github.com/PratikNichit",
+    "instagramUrl": "https://www.instagram.com/pratik_nichit14/",
+    "xUrl": "https://x.com/PratikNichit8"
   },
-
   "aboutMePage": {
-    "para1": "I'm a Full Stack Developer mainly Fousing on building and managing Web ,Mobile and Windows Applications that leads to the success of the overall product. Check out some of my work in the Projects section.",
-    "para2": "I also like sharing content related to the stuff that I have learned over the years in Software Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin and Github where I am open to discussion and collaboration related to Software Development and Programming",
-    "para3": "I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.",
+    "para1": "I'm a Full Stack Developer mainly focusing on building and managing Web, Mobile, and Windows Applications that lead to the success of the overall product. Check out some of my work in the Projects section.",
+    "para2": "I also like sharing content related to the stuff that I have learned over the years in Software Development so it can help other people in the Dev Community. Feel free to connect or follow me on my LinkedIn and GitHub, where I am open to discussion and collaboration related to Software Development and Programming.",
+    "para3": "I'm open to job opportunities where I can contribute, learn, and grow. If you have a good opportunity that matches my skills and experience, then don't hesitate to contact me.",
     "skills": [
       "HTML",
       "CSS",
@@ -24,32 +23,85 @@
       "Node",
       "Express.js",
       "MongoDB",
-      "MySql",
-      "ShellScript",
-      "MicroSoft Azure",
-      "next.js",
-      "tailwind.css",
+      "MySQL",
+      "Shell Script",
+      "Microsoft Azure",
+      "Next.js",
+      "Tailwind CSS",
       "Material UI",
-      "ASP .net",
-      "java",
+      "ASP.NET",
+      "Java",
       "Git",
       "GitHub"
     ]
   },
-
-  "ExperiencePage": {
+  "experiencePage": {
     "jobs": [
       {
         "role": "Frontend Developer",
         "companyName": "Herbs Magic",
-        "date": "May 2023 - Aug 2023",
-        "discription": "Designed and developed user-friendly web interfaces leveraging Next.js and Material UI and Tailwind.css , ensuring seamless user experiences. Optimized UI performance and collaborated closely with designers to implement features efficiently, resulting in a more polished and responsive application."
+        "date": "Oct 2024 - Feb 2024",
+        "description": "Designed and developed user-friendly web interfaces leveraging Next.js, Material UI, and Tailwind CSS, ensuring seamless user experiences. Optimized UI performance and collaborated closely with designers to implement features efficiently, resulting in a more polished and responsive application."
       },
       {
-        "role": "Java developer Intern",
+        "role": "Java Developer Intern",
         "companyName": "QuickYes InfoTech",
         "date": "Jan 2023 - Apr 2023",
-        "discription": "worked on integrating MySQL with a Java-based Windows application using JDBC, ensuring efficient database connectivity. My responsibilities included designing a reliable connection mechanism and optimizing query execution for better performance, enabling seamless data interaction between the app and the database."
+        "description": "Worked on integrating MySQL with a Java-based Windows application using JDBC, ensuring efficient database connectivity. Responsibilities included designing a reliable connection mechanism and optimizing query execution for better performance, enabling seamless data interaction between the app and the database."
+      }
+    ]
+  },
+  "projectPage": {
+    "ProjectList": [
+      {
+        "title": "Ecomzy",
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, illo quos sit aliquid commodi ipsum",
+        "imageUrl": "https://picsum.photos/300",
+        "projectOverview": "An e-commerce website where users can browse, add items to the cart, and purchase products.",
+        "techUsed": ["React", "Node.js", "MongoDB", "Material-UI"],
+        "gitLink": "https://github.com/PratikNichit/ecomzy",
+        "viewLink": "https://ecomzy.example.com"
+      },
+      {
+        "title": "Sticky Notes",
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, illo quos sit aliquid commodi ipsum",
+        "imageUrl": "https://picsum.photos/300",
+        "projectOverview": "A web app for creating, updating, and deleting notes and to-do lists, with persistent storage using local storage.",
+        "techUsed": ["React", "Tailwind CSS", "Firebase"],
+        "gitLink": "https://github.com/PratikNichit/stickynotes"
+      },
+      {
+        "title": "RaiseIT",
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, illo quos sit aliquid commodi ipsum",
+        "imageUrl": "https://picsum.photos/300",
+        "projectOverview": "A mobile app that allows users to report civic issues to local authorities with images and GPS coordinates.",
+        "techUsed": ["React Native", "Node.js", "Express", "MongoDB"],
+        "gitLink": "https://github.com/PratikNichit/raiseit",
+        "viewLink": "https://raiseit.example.com"
+      },
+      {
+        "title": "Portfolio Website",
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, illo quos sit aliquid commodi ipsum",
+        "imageUrl": "https://picsum.photos/300",
+        "projectOverview": "A portfolio website showcasing personal projects, skills, and work experience. Built with a responsive design.",
+        "techUsed": ["Next.js", "Tailwind CSS"],
+        "gitLink": "https://github.com/PratikNichit/portfolio"
+      },
+      {
+        "title": "Weather App",
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, illo quos sit aliquid commodi ipsum",
+        "imageUrl": "https://picsum.photos/300",
+        "projectOverview": "A web app that fetches real-time weather updates for any location using a public API.",
+        "techUsed": ["React", "API Integration", "CSS"],
+        "gitLink": "https://github.com/PratikNichit/weather-app"
+      },
+      {
+        "title": "Weather App",
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, illo quos sit aliquid commodi ipsum",
+        "imageUrl": "https://picsum.photos/300",
+        "projectOverview": "A web app that fetches real-time weather updates for any location using a public API.",
+        "techUsed": ["React", "API Integration", "CSS"],
+        "gitLink": "https://github.com/PratikNichit/weather-app"
       }
     ]
   }
