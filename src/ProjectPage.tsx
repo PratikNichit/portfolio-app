@@ -3,8 +3,8 @@ import { SubTitle } from "./Components/SubTitle";
 import { ProjectCard } from "./Components/ProjectCard";
 
 interface Project {
-  tittle: string;
-  subTittle: string;
+  title: string;
+  subTitle: string;
   imageUrl: string;
   projectOverView: string;
   techUsed: string[];
@@ -27,10 +27,21 @@ export const ProjectPage = ({ ProjectList }: Props) => {
       />
       <Grid container spacing={4} sx={{ marginTop: 4 }}>
         {ProjectList.map((project, index) => (
-          <Grid item xs={12} sm={6} md={4} key={index}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            key={index}
+            sx={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
             <ProjectCard
-              tittle={project.tittle}
-              subTittle={project.subTittle}
+              title={project.title}
+              subTitle={project.subTitle}
               imageUrl={project.imageUrl}
               projectOverView={project.projectOverView}
               techUsed={project.techUsed}

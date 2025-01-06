@@ -68,7 +68,7 @@ export const NavBar = () => {
         </Button>
       </Toolbar>
       <Modal open={open} onClose={handleClose}>
-        <FormModal handleClose={handleClose} />
+        <FormModal open={open} handleClose={handleClose} />
       </Modal>
     </AppBar>
   );

@@ -6,8 +6,8 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
 interface Props {
-  tittle: string;
-  subTittle: string;
+  title: string;
+  subTitle: string;
   imageUrl: string;
   projectOverView: string;
   techUsed: string[];
@@ -15,17 +15,17 @@ interface Props {
   ViewLink?: string;
 }
 
-export const ProjectCard = ({ tittle, subTittle, imageUrl }: Props) => {
+export const ProjectCard = ({ title, subTitle, imageUrl }: Props) => {
   return (
     <div>
       <Card sx={{ maxWidth: 345 }}>
         <CardMedia component="img" alt="Pratik" height="160" image={imageUrl} />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            {tittle}
+            {title}
           </Typography>
           <Typography variant="body2" sx={{ color: "text.secondary" }}>
-            {subTittle}
+            {subTitle}
           </Typography>
         </CardContent>
         <CardActions sx={{ display: "flex", justifyContent: "flex-end" }}>

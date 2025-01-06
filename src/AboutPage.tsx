@@ -113,7 +113,7 @@ export const AboutPage = () => {
         </Grid>
       </Container>
       <Modal open={open} onClose={handleClose}>
-        <FormModal handleClose={handleClose} />
+        <FormModal open={open} handleClose={handleClose} />
       </Modal>
     </Box>
   );

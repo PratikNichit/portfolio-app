@@ -16,7 +16,7 @@ export const ContactMe = () => {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   return (
-    <Box sx={{ backgroundColor: "#fcfcfc", mt: 8 }}>
+    <Box sx={{ mt: 8 }}>
       <Container sx={{ mt: 5 }}>
         <Stack
           sx={{
@@ -83,7 +83,7 @@ export const ContactMe = () => {
             Start a conversation
           </Button>
           <Modal open={open} onClose={handleClose}>
-            <FormModal handleClose={handleClose} />
+            <FormModal open={open} handleClose={handleClose} />
           </Modal>
         </Stack>
       </Container>

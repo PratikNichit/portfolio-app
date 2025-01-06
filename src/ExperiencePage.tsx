@@ -6,11 +6,11 @@ interface Job {
   role: string;
   companyName: string;
   date: string;
-  discription: string;
+  description: string;
 }
 
 export const ExperiencePage = () => {
-  const jobs: Job[] = data.ExperiencePage.jobs;
+  const jobs: Job[] = data.experiencePage.jobs;
 
   return (
     <div>
@@ -25,7 +25,7 @@ export const ExperiencePage = () => {
           role={job.role}
           companyName={job.companyName}
           date={job.date}
-          discription={job.discription}
+          discription={job.description}
         />
       ))}
     </div>
