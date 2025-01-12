@@ -31,11 +31,9 @@ export const ContactForm = () => {
 
   const [result, setResult] = React.useState<string | null>(null);
 
-  // Form Submission Handler
   const onSubmit = async (data: FormValues) => {
     setResult(null);
 
-    // Append form data
     const formData = new FormData();
     formData.append("access_key", "3f8e53f9-bee8-44f1-8099-96463667ed89");
     formData.append("name", data.name);
@@ -43,16 +41,12 @@ export const ContactForm = () => {
     formData.append("message", data.message);
 
     try {
-      // API Request
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         body: formData,
       });
 
       const Jsondata = await response.json();
-
-      // Log response for debugging
-      console.log("Response Data:", Jsondata);
 
       if (Jsondata.success) {
         setResult("Form submitted successfully!");
