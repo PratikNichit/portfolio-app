@@ -1,13 +1,7 @@
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { NavBar } from "./Components/NavBar";
-import { Stack } from "@mui/material";
-import { IntroPage } from "./IntroPage";
-import { AboutPage } from "./AboutPage";
-import { ExperiencePage } from "./ExperiencePage";
-import { ProjectPage } from "./ProjectPage";
-import { ContactMe } from "./ContactMe";
-import { FooterSection } from "./FooterSection";
-import data from "./data.json";
+import { HomePage } from "./HomePage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ProjectDetails } from "./ProjectDetails";
 
 const theme = createTheme({
   palette: {
@@ -31,20 +25,14 @@ const theme = createTheme({
 });
 
 function App() {
-  const projectList = data.projectPage.ProjectList;
-
   return (
     <ThemeProvider theme={theme}>
-      <Stack sx={{ m: 0, p: 0 }}>
-        {console.log(projectList)}
-        <NavBar />
-        <IntroPage />
-        <AboutPage />
-        <ExperiencePage />
-        <ProjectPage ProjectList={projectList} />
-        <ContactMe />
-        <FooterSection />
-      </Stack>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/ProjectDetails/:title" element={<ProjectDetails />} />
+        </Routes>
+      </BrowserRouter>
     </ThemeProvider>
   );
 }

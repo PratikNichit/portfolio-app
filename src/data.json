@@ -1,7 +1,8 @@
 {
   "info": {
     "name": "Pratik Nichit",
-    "emailId": "nichitpratik2004@gmail.com"
+    "emailId": "nichitpratik2004@gmail.com",
+    "CV": "src/assets/Pratik_CV.pdf"
   },
   "social": {
     "linkedInUrl": "https://www.linkedin.com/in/pratik-nichit-a58a83206/",
@@ -57,51 +58,149 @@
         "title": "Ecomzy",
         "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, illo quos sit aliquid commodi ipsum",
         "imageUrl": "https://picsum.photos/300",
-        "projectOverview": "An e-commerce website where users can browse, add items to the cart, and purchase products.",
-        "techUsed": ["React", "Node.js", "MongoDB", "Material-UI"],
+        "projectOverView": "An e-commerce website where users can browse, add items to the cart, and purchase products.",
+        "techUsed": [
+          {
+            "name": "React",
+            "link": "https://cdn-icons-png.flaticon.com/512/174/174854.png"
+          },
+          {
+            "name": "Node.js",
+            "link": "https://cdn-icons-png.flaticon.com/512/919/919825.png"
+          },
+          {
+            "name": "MongoDB",
+            "link": "https://cdn-icons-png.flaticon.com/512/919/919836.png"
+          },
+          {
+            "name": "Material-UI",
+            "link": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
+          },
+          {
+            "name": "Material-UI",
+            "link": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
+          },
+          {
+            "name": "Material-UI",
+            "link": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
+          },
+          {
+            "name": "Material-UI",
+            "link": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
+          }
+        ],
         "gitLink": "https://github.com/PratikNichit/ecomzy",
-        "viewLink": "https://ecomzy.example.com"
+        "viewLink": "https://ecomzy.example.com",
+        "details": {
+          "para1": "Ecomzy is a dynamic e-commerce platform that allows users to explore products across various categories. The interface is user-friendly, ensuring a smooth browsing experience for customers of all demographics.",
+          "para2": "The website incorporates a secure authentication system, real-time inventory management, and an optimized cart for fast checkout. These features enhance the shopping experience while maintaining data security.",
+          "para3": "Built using React and Node.js, Ecomzy leverages Material-UI for modern design and MongoDB for reliable data storage. It also integrates with payment gateways for secure and seamless transactions."
+        }
       },
       {
         "title": "Sticky Notes",
         "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, illo quos sit aliquid commodi ipsum",
         "imageUrl": "https://picsum.photos/300",
-        "projectOverview": "A web app for creating, updating, and deleting notes and to-do lists, with persistent storage using local storage.",
-        "techUsed": ["React", "Tailwind CSS", "Firebase"],
-        "gitLink": "https://github.com/PratikNichit/stickynotes"
+        "projectOverView": "A web app for creating, updating, and deleting notes and to-do lists, with persistent storage using local storage.",
+        "techUsed": [
+          {
+            "name": "React",
+            "link": "https://cdn-icons-png.flaticon.com/512/174/174854.png"
+          },
+          {
+            "name": "Tailwind CSS",
+            "link": "https://cdn-icons-png.flaticon.com/512/732/732140.png"
+          },
+          {
+            "name": "Firebase",
+            "link": "https://cdn-icons-png.flaticon.com/512/732/732200.png"
+          }
+        ],
+        "gitLink": "https://github.com/PratikNichit/stickynotes",
+        "details": {
+          "para1": "Sticky Notes is a productivity-focused application designed to help users manage their tasks efficiently. It offers a simple interface for creating, updating, and deleting notes and to-do lists.",
+          "para2": "The app ensures data persistence using local storage, allowing users to access their notes even after closing the browser. Firebase integration adds scalability and future enhancements for cloud storage.",
+          "para3": "Developed with React and styled using Tailwind CSS, Sticky Notes combines functionality with aesthetic appeal. It is lightweight and responsive, catering to users on both desktop and mobile platforms."
+        }
       },
       {
         "title": "RaiseIT",
         "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, illo quos sit aliquid commodi ipsum",
         "imageUrl": "https://picsum.photos/300",
-        "projectOverview": "A mobile app that allows users to report civic issues to local authorities with images and GPS coordinates.",
-        "techUsed": ["React Native", "Node.js", "Express", "MongoDB"],
+        "projectOverView": "A mobile app that allows users to report civic issues to local authorities with images and GPS coordinates.",
+        "techUsed": [
+          {
+            "name": "React Native",
+            "link": "https://cdn-icons-png.flaticon.com/512/174/174854.png"
+          },
+          {
+            "name": "Node.js",
+            "link": "https://cdn-icons-png.flaticon.com/512/919/919825.png"
+          },
+          {
+            "name": "Express",
+            "link": "https://cdn-icons-png.flaticon.com/512/919/919831.png"
+          },
+          {
+            "name": "MongoDB",
+            "link": "https://cdn-icons-png.flaticon.com/512/919/919836.png"
+          }
+        ],
         "gitLink": "https://github.com/PratikNichit/raiseit",
-        "viewLink": "https://raiseit.example.com"
+        "viewLink": "https://raiseit.example.com",
+        "details": {
+          "para1": "RaiseIT empowers citizens to report civic issues like potholes or garbage accumulation directly to authorities. Users can submit complaints with descriptions, images, and GPS locations for precise reporting.",
+          "para2": "The app's backend processes reports efficiently and routes them to the appropriate municipal departments. Notifications keep users updated on the status of their complaints, enhancing accountability.",
+          "para3": "RaiseIT uses React Native for a seamless mobile experience, with Node.js and Express powering the server-side. MongoDB ensures secure and efficient data management for complaint tracking."
+        }
       },
       {
         "title": "Portfolio Website",
         "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, illo quos sit aliquid commodi ipsum",
         "imageUrl": "https://picsum.photos/300",
-        "projectOverview": "A portfolio website showcasing personal projects, skills, and work experience. Built with a responsive design.",
-        "techUsed": ["Next.js", "Tailwind CSS"],
-        "gitLink": "https://github.com/PratikNichit/portfolio"
+        "projectOverView": "A portfolio website showcasing personal projects, skills, and work experience. Built with a responsive design.",
+        "techUsed": [
+          {
+            "name": "Next.js",
+            "link": "https://cdn-icons-png.flaticon.com/512/919/919841.png"
+          },
+          {
+            "name": "Tailwind CSS",
+            "link": "https://cdn-icons-png.flaticon.com/512/732/732140.png"
+          }
+        ],
+        "gitLink": "https://github.com/PratikNichit/portfolio",
+        "details": {
+          "para1": "The portfolio website serves as a professional showcase, highlighting personal projects, technical skills, and work experience. It provides a clear and organized overview of achievements and capabilities.",
+          "para2": "Designed with responsiveness in mind, the site adapts seamlessly to various devices and screen sizes. This ensures an optimal user experience for both desktop and mobile users.",
+          "para3": "Built using Next.js for server-side rendering and Tailwind CSS for styling, the portfolio is optimized for performance and aesthetics. It reflects a strong focus on design and functionality."
+        }
       },
       {
         "title": "Weather App",
         "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, illo quos sit aliquid commodi ipsum",
         "imageUrl": "https://picsum.photos/300",
-        "projectOverview": "A web app that fetches real-time weather updates for any location using a public API.",
-        "techUsed": ["React", "API Integration", "CSS"],
-        "gitLink": "https://github.com/PratikNichit/weather-app"
-      },
-      {
-        "title": "Weather App",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, illo quos sit aliquid commodi ipsum",
-        "imageUrl": "https://picsum.photos/300",
-        "projectOverview": "A web app that fetches real-time weather updates for any location using a public API.",
-        "techUsed": ["React", "API Integration", "CSS"],
-        "gitLink": "https://github.com/PratikNichit/weather-app"
+        "projectOverView": "A web app that fetches real-time weather updates for any location using a public API.",
+        "techUsed": [
+          {
+            "name": "React",
+            "link": "https://cdn-icons-png.flaticon.com/512/174/174854.png"
+          },
+          {
+            "name": "API Integration",
+            "link": "https://cdn-icons-png.flaticon.com/512/919/919830.png"
+          },
+          {
+            "name": "CSS",
+            "link": "https://cdn-icons-png.flaticon.com/512/732/732190.png"
+          }
+        ],
+        "gitLink": "https://github.com/PratikNichit/weather-app",
+        "details": {
+          "para1": "The Weather App provides real-time weather updates for any location by fetching data from a public weather API. Users can search for cities or use their current location for updates.",
+          "para2": "The application displays information like temperature, humidity, and weather conditions in an intuitive format. It ensures data accuracy and updates automatically based on API responses.",
+          "para3": "Developed using React, the app leverages clean CSS for styling. Its lightweight architecture ensures fast performance and smooth functionality across different devices."
+        }
       }
     ]
   }

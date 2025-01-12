@@ -4,18 +4,55 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import {useNavigate} from "react-router-dom"; 
 
 interface Props {
   title: string;
   subTitle: string;
   imageUrl: string;
   projectOverView: string;
-  techUsed: string[];
+  techUsed: {
+    name: string;
+    link: string;
+  }[],
   gitLink: string;
   ViewLink?: string;
+  details: {
+    para1: string;
+    para2: string;
+    para3: string;
+  };
 }
 
-export const ProjectCard = ({ title, subTitle, imageUrl }: Props) => {
+export const ProjectCard = ({
+  title,
+  subTitle,
+  imageUrl,
+  projectOverView,
+  techUsed,
+  gitLink,
+  ViewLink,
+  details,
+}: Props) => {
+
+  const navigate   = useNavigate();
+
+  const handleNagtive = () => {
+    navigate(`/ProjectDetails/${title}`,{
+      state :{
+        title,
+        subTitle,
+        imageUrl,
+        projectOverView,
+        techUsed,
+        gitLink,
+        ViewLink,
+        details
+      }
+    })
+  }
+
+  
   return (
     <div>
       <Card sx={{ maxWidth: 345 }}>
@@ -34,6 +71,7 @@ export const ProjectCard = ({ title, subTitle, imageUrl }: Props) => {
             color="secondary"
             size="small"
             sx={{ mr: 1, mb: 1 }}
+            onClick={handleNagtive}
           >
             View
           </Button>
