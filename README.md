@@ -1,50 +1,114 @@
-# React + TypeScript + Vite
+# Portfolio App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a portfolio application built with React, TypeScript, and Vite. It showcases personal projects, skills, and work experience.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Scripts](#scripts)
+- [Dependencies](#dependencies)
+- [Dynamic Content](#dynamic-content)
+- [License](#license)
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone the repository:
 
-- Configure the top-level `parserOptions` property like this:
+   ```sh
+   git clone https://github.com/your-username/portfolio-app.git
+   ```
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+2. Navigate to the project directory:
+
+   ```sh
+   cd portfolio-app
+   ```
+
+3. Install the dependencies:
+
+   ```sh
+   npm install
+   ```
+
+## Usage
+
+To start the development server, run:
+
+```sh
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Open your browser and navigate to `http://localhost:3000` to see the application in action.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Project Structure
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
 ```
+portfolio-app/
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── public/
+├── README.md
+├── src/
+│   ├── AboutPage.tsx
+│   ├── App.css
+│   ├── App.tsx
+│   ├── assets/
+│   ├── Components/
+│   │   ├── ContactForm.tsx
+│   │   ├── ExperienceCard.tsx
+│   │   ├── FormModal.tsx
+│   │   ├── LineIcon.tsx
+│   │   ├── NavBar.tsx
+│   │   ├── ProjectCard.tsx
+│   │   ├── SelfInfo.tsx
+│   ├── ContactMe.tsx
+│   ├── data.json
+│   ├── ExperiencePage.tsx
+│   ├── FooterSection.tsx
+│   ├── HomePage.tsx
+│   ├── index.css
+│   ├── IntroPage.tsx
+│   ├── main.tsx
+│   ├── ProjectDetails.tsx
+│   ├── ProjectPage.tsx
+│   ├── types.ts
+│   ├── vite-env.d.ts
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+```
+
+## Scripts
+
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the project for production.
+- `npm run lint`: Runs ESLint to check for linting errors.
+- `npm run preview`: Previews the production build.
+
+## Dependencies
+
+- `@emotion/react`
+- `@emotion/styled`
+- `@fontsource/roboto`
+- `@hookform/resolvers`
+- `@mui/icons-material`
+- `@mui/material`
+- `react`
+- `react-dom`
+- `react-hook-form`
+- `react-markdown`
+- `react-router-dom`
+- `zod`
+
+## Dynamic Content
+
+The data for the portfolio is rendered dynamically from the [data.json](src/data.json) file. You can easily update the content by modifying the `data.json` file. This allows anyone to use the application and customize it with their own data.
+
+## License
+
+This project is licensed under the MIT License.
