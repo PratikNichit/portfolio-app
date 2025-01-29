@@ -71,7 +71,7 @@ export const IntroPage = () => {
           }}
         >
           <img
-            src="src\assets\image.png"
+            src="/image.png"
             style={{ width: "100%", height: "100%", borderRadius: 150 }}
             alt="Hello"
           />
