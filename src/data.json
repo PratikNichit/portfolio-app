@@ -66,7 +66,7 @@
           },
           {
             "name": "Node.js",
-            "link": "https://cdn-icons-png.flaticon.com/512/919/919825.png"
+            "link": "https://www.svgrepo.com/show/452075/node-js.svg"
           },
           {
             "name": "MongoDB",
@@ -77,16 +77,8 @@
             "link": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
           },
           {
-            "name": "Material-UI",
-            "link": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
-          },
-          {
-            "name": "Material-UI",
-            "link": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
-          },
-          {
-            "name": "Material-UI",
-            "link": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
+            "name": "Redux",
+            "link": "https://www.svgrepo.com/show/452093/redux.svg"
           }
         ],
         "gitLink": "https://github.com/PratikNichit/ecomzy",
@@ -109,7 +101,7 @@
           },
           {
             "name": "Firebase Firestore",
-            "link": "https://cdn-icons-png.flaticon.com/512/732/732140.png"
+            "link": "https://www.svgrepo.com/show/353735/firebase.svg"
           },
           {
             "name": "Material-UI",
@@ -132,19 +124,19 @@
         "techUsed": [
           {
             "name": "React Native",
-            "link": "https://cdn-icons-png.flaticon.com/512/174/174854.png"
+            "link": "https://cdn.worldvectorlogo.com/logos/react-native-1.svg"
           },
           {
-            "name": "Node.js",
-            "link": "https://cdn-icons-png.flaticon.com/512/919/919825.png"
+            "name": "Expo",
+            "link": "https://www.svgrepo.com/show/353722/expo.svg"
           },
           {
-            "name": "Express",
-            "link": "https://cdn-icons-png.flaticon.com/512/919/919831.png"
+            "name": "Firebase",
+            "link": "https://www.svgrepo.com/show/353735/firebase.svg"
           },
           {
-            "name": "MongoDB",
-            "link": "https://cdn-icons-png.flaticon.com/512/919/919836.png"
+            "name": "Firestore",
+            "link": "https://www.svgrepo.com/show/373598/firestore.svg"
           }
         ],
         "gitLink": "https://github.com/PratikNichit/raiseit",
