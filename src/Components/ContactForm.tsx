@@ -33,9 +33,9 @@ export const ContactForm = () => {
 
   const onSubmit = async (data: FormValues) => {
     setResult(null);
-
+    const accessKey = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;;
     const formData = new FormData();
-    formData.append("access_key", "3f8e53f9-bee8-44f1-8099-96463667ed89");
+    formData.append("access_key", accessKey);
     formData.append("name", data.name);
     formData.append("email", data.email);
     formData.append("message", data.message);

@@ -1,12 +1,18 @@
-import { Box, Grid, Typography, Container, Chip, Button } from "@mui/material";
+import { Box, Grid, Typography, Container, Button } from "@mui/material";
 import { SubTitle } from "./Components/SubTitle";
 import { SelfInfo } from "./Components/SelfInfo";
 import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 export const ProjectDetails = () => {
   const { state } = useLocation();
   const project = state;
   const subtitle = "Here you will find more about the project " + project.title;
+
+  // Scroll to the top when the component is mounted
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   if (!state) {
     return null;
@@ -109,16 +115,18 @@ export const ProjectDetails = () => {
             >
               GitHub
             </Button>
-            <Button
-              variant="contained"
-              size="large"
-              color="secondary"
-              sx={{ my: 4,ml: 2 }}
-              href={project.gitLink}
-              target="_blank"
-            >
-              visit
-            </Button>
+            {project.viewLink && ( 
+              <Button
+                variant="contained"
+                size="large"
+                color="secondary"
+                sx={{ my: 4, ml: 2 }}
+                href={project.viewLink}
+                target="_blank"
+              > 
+                Visit
+              </Button>
+            )}
           </Box>
         </Grid>
       </Grid>

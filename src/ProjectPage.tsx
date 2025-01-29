@@ -12,7 +12,7 @@ interface Project {
     link: string;
   }[],
   gitLink: string;
-  ViewLink?: string;
+  viewLink?: string;
   details: {
     para1: string;
     para2: string;
@@ -54,7 +54,7 @@ export const ProjectPage = ({ ProjectList }: Props) => {
               projectOverView={project.projectOverView}
               techUsed={project.techUsed}
               gitLink={project.gitLink}
-              ViewLink={project.ViewLink}
+              viewLink={project.viewLink}
               details={project.details}
             />
           </Grid>
