@@ -2,7 +2,7 @@
   "info": {
     "name": "Pratik Nichit",
     "emailId": "nichitpratik2004@gmail.com",
-    "CV": "src/assets/Pratik_CV.pdf"
+    "CV": "/Pratik_CV.pdf"
   },
   "social": {
     "linkedInUrl": "https://www.linkedin.com/in/pratik-nichit-a58a83206/",
@@ -57,7 +57,7 @@
       {
         "title": "Ecomzy",
         "subTitle": "Ecomzy is a dynamic e-commerce platform that allows users to explore products across various categories. The interface is user-friendly",
-        "imageUrl": "src/assets/ecomzy-banner.png",
+        "imageUrl": "/ecomzy-banner.png",
         "projectOverView": "An e-commerce website where users can browse, add items to the cart, and purchase products.",
         "techUsed": [
           {
@@ -91,7 +91,7 @@
       {
         "title": "Sticky Notes",
         "subTitle": "The Notes Application is a modern and intuitive web platform designed to efficiently manage notes. Built using React and Firebase Firestore",
-        "imageUrl": "src/assets/note-banner.png",
+        "imageUrl": "/note-banner.png",
         "projectOverView": "A web app for creating, updating, and deleting notes and to-do lists, with persistent storage using local storage.",
         "techUsed": [
           {
@@ -118,7 +118,7 @@
       {
         "title": "RaiseIT",
         "subTitle": "RaiseIT is a mobile app for citizens to report grievances, interact and engage with local officers built with React Native, Firebase & Expo",
-        "imageUrl": "src/assets/raseit-banner.png",
+        "imageUrl": "/raseit-banner.png",
         "projectOverView": "A mobile app that allows users to report civic issues to local authorities with images and GPS coordinates.",
         "techUsed": [
           {
@@ -149,7 +149,7 @@
       {
         "title": "Portfolio Website",
         "subTitle": "The Portfolio Application is a web platform designed to highlight an individual’s professional achievements, build using React and Material UI.",
-        "imageUrl": "src/assets/portfolio-banner.png",
+        "imageUrl": "/portfolio-banner.png",
         "projectOverView": "A portfolio website showcasing personal projects, skills, and work experience. Built with a responsive design.",
         "techUsed": [
           {
@@ -180,7 +180,7 @@
       {
         "title": "Network Analyzer Tool",
         "subTitle": "The Network Analyzer Tool is a Python-based application for capturing and analyzing network traffic in real time Using Scapy",
-        "imageUrl": "src/assets/netwatcher-banner.png",
+        "imageUrl": "/netwatcher-banner.png",
         "projectOverView": "A web app that fetches real-time weather updates for any location using a public API.",
         "techUsed": [
           {

@@ -62,8 +62,8 @@ export const NavBar = () => {
           }}
         >
           <img
-            src="src/assets/icon.png"
-            alt="hello"
+            src="/icon.png"
+            alt="icon"
             style={{
               width: "100%",
               height: "auto",
