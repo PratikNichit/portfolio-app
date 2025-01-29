@@ -123,7 +123,7 @@ export const ContactForm = () => {
       {result && (
         <Typography
           color={result.includes("Error") ? "error" : "success"}
-          sx={{ marginTop: 2 }}
+          sx={{ marginTop: 2, textAlign: "center", fontWeight: 500 }}
         >
           {result}
         </Typography>

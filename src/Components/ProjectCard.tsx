@@ -4,7 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import {useNavigate} from "react-router-dom"; 
+import { useNavigate } from "react-router-dom"; 
 
 interface Props {
   title: string;
@@ -14,7 +14,7 @@ interface Props {
   techUsed: {
     name: string;
     link: string;
-  }[],
+  }[];
   gitLink: string;
   viewLink?: string;
   details: {
@@ -35,11 +35,11 @@ export const ProjectCard = ({
   details,
 }: Props) => {
 
-  const navigate   = useNavigate();
+  const navigate = useNavigate();
 
-  const handleNagtive = () => {
-    navigate(`/ProjectDetails/${title}`,{
-      state :{
+  const handleNavigate = () => {
+    navigate(`/ProjectDetails/${title}`, {
+      state: {
         title,
         subTitle,
         imageUrl,
@@ -49,16 +49,24 @@ export const ProjectCard = ({
         viewLink,
         details
       }
-    })
-  }
+    });
+  };
 
-  
   return (
     <div>
-      <Card sx={{ maxWidth: 345 }}>
-        <CardMedia component="img" alt="Pratik" height="160" image={imageUrl} />
+      <Card
+        sx={{
+          maxWidth: 345,
+          transition: "0.3s",
+          "&:hover": {
+            transform: "scale(1.05)",
+            boxShadow: 6
+          }
+        }}
+      >
+        <CardMedia component="img" alt="Project Image" height="160" image={imageUrl} />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h5" component="div" sx={{ fontWeight: 600 }}>
             {title}
           </Typography>
           <Typography variant="body2" sx={{ color: "text.secondary" }}>
@@ -71,7 +79,7 @@ export const ProjectCard = ({
             color="secondary"
             size="small"
             sx={{ mr: 1, mb: 1 }}
-            onClick={handleNagtive}
+            onClick={handleNavigate}
           >
             View
           </Button>
