@@ -11,8 +11,8 @@
     "xUrl": "https://x.com/PratikNichit8"
   },
   "aboutMePage": {
-    "para1": "I'm a Full Stack Developer mainly focusing on building and managing Web, Mobile, and Windows Applications that lead to the success of the overall product. Check out some of my work in the Projects section.",
-    "para2": "I also like sharing content related to the stuff that I have learned over the years in Software Development so it can help other people in the Dev Community. Feel free to connect or follow me on my LinkedIn and GitHub, where I am open to discussion and collaboration related to Software Development and Programming.",
+    "para1": "I'm a <strong>Full Stack Developer</strong> mainly focusing on building and managing Web, Mobile, and Windows Applications that lead to the success of the overall product. Check out some of my work in the Projects section.",
+    "para2": "I also like sharing content related to the stuff that I have learned over the years in Software Development so it can help other people in the Dev Community. Feel free to connect or follow me on my <strong> <a href=\"https://www.linkedin.com/in/pratik-nichit-a58a83206/\" style=\"color: #7610f7; text-decoration: none;\">LinkedIn</a> </strong> and <strong> <a href=\"https://github.com/PratikNichit/\" style=\"color: #7610f7; text-decoration: none;\">GitHub</a> </strong>, where I am open to discussion and collaboration related to Software Development and Programming.",
     "para3": "I'm open to job opportunities where I can contribute, learn, and grow. If you have a good opportunity that matches my skills and experience, then don't hesitate to contact me.",
     "skills": [
       "HTML",
@@ -56,8 +56,8 @@
     "ProjectList": [
       {
         "title": "Ecomzy",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, illo quos sit aliquid commodi ipsum",
-        "imageUrl": "https://picsum.photos/300",
+        "subTitle": "Ecomzy is a dynamic e-commerce platform that allows users to explore products across various categories. The interface is user-friendly",
+        "imageUrl": "src/assets/ecomzy-banner.png",
         "projectOverView": "An e-commerce website where users can browse, add items to the cart, and purchase products.",
         "techUsed": [
           {
@@ -70,7 +70,7 @@
           },
           {
             "name": "MongoDB",
-            "link": "https://cdn-icons-png.flaticon.com/512/919/919836.png"
+            "link": "https://www.svgrepo.com/show/331488/mongodb.svg"
           },
           {
             "name": "Material-UI",
@@ -90,7 +90,7 @@
           }
         ],
         "gitLink": "https://github.com/PratikNichit/ecomzy",
-        "viewLink": "https://ecomzy.example.com",
+        "viewLink": null,
         "details": {
           "para1": "Ecomzy is a dynamic e-commerce platform that allows users to explore products across various categories. The interface is user-friendly, ensuring a smooth browsing experience for customers of all demographics.",
           "para2": "The website incorporates a secure authentication system, real-time inventory management, and an optimized cart for fast checkout. These features enhance the shopping experience while maintaining data security.",
@@ -99,34 +99,35 @@
       },
       {
         "title": "Sticky Notes",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, illo quos sit aliquid commodi ipsum",
-        "imageUrl": "https://picsum.photos/300",
+        "subTitle": "The Notes Application is a modern and intuitive web platform designed to efficiently manage notes. Built using React and Firebase Firestore",
+        "imageUrl": "src/assets/note-banner.png",
         "projectOverView": "A web app for creating, updating, and deleting notes and to-do lists, with persistent storage using local storage.",
         "techUsed": [
           {
-            "name": "React",
-            "link": "https://cdn-icons-png.flaticon.com/512/174/174854.png"
+            "name": "React.js",
+            "link": "https://cdn.worldvectorlogo.com/logos/react-2.svg"
           },
           {
-            "name": "Tailwind CSS",
+            "name": "Firebase Firestore",
             "link": "https://cdn-icons-png.flaticon.com/512/732/732140.png"
           },
           {
-            "name": "Firebase",
-            "link": "https://cdn-icons-png.flaticon.com/512/732/732200.png"
+            "name": "Material-UI",
+            "link": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
           }
         ],
         "gitLink": "https://github.com/PratikNichit/stickynotes",
+        "viewLink": "https://stickeynotes.vercel.app",
         "details": {
-          "para1": "Sticky Notes is a productivity-focused application designed to help users manage their tasks efficiently. It offers a simple interface for creating, updating, and deleting notes and to-do lists.",
-          "para2": "The app ensures data persistence using local storage, allowing users to access their notes even after closing the browser. Firebase integration adds scalability and future enhancements for cloud storage.",
-          "para3": "Developed with React and styled using Tailwind CSS, Sticky Notes combines functionality with aesthetic appeal. It is lightweight and responsive, catering to users on both desktop and mobile platforms."
+          "para1": "The Notes Application is a modern and intuitive web platform designed to efficiently manage notes. Built using React and Firebase Firestore, it provides users with essential features like creating, viewing, and deleting notes. The application emphasizes responsiveness, ensuring a consistent and user-friendly experience across devices, including desktops and mobile devices.",
+          "para2": "The interface allows users to create new notes by entering a title, details, and selecting a category. Notes are displayed in an organized masonry grid layout, providing better visual structure. Styled with Material-UI, the application combines functionality with an aesthetically pleasing design. Real-time data synchronization is powered by Firebase Firestore, ensuring that user notes are always up to date across sessions and devices",
+          "para3": "This project is ideal for individuals seeking an organized and reliable note-taking solution. Its modular structure and adherence to modern coding practices make it scalable and easy to maintain."
         }
       },
       {
         "title": "RaiseIT",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, illo quos sit aliquid commodi ipsum",
-        "imageUrl": "https://picsum.photos/300",
+        "subTitle": "RaiseIT is a mobile app for citizens to report grievances, interact and engage with local officers built with React Native, Firebase & Expo",
+        "imageUrl": "src/assets/raseit-banner.png",
         "projectOverView": "A mobile app that allows users to report civic issues to local authorities with images and GPS coordinates.",
         "techUsed": [
           {
@@ -149,57 +150,62 @@
         "gitLink": "https://github.com/PratikNichit/raiseit",
         "viewLink": "https://raiseit.example.com",
         "details": {
-          "para1": "RaiseIT empowers citizens to report civic issues like potholes or garbage accumulation directly to authorities. Users can submit complaints with descriptions, images, and GPS locations for precise reporting.",
-          "para2": "The app's backend processes reports efficiently and routes them to the appropriate municipal departments. Notifications keep users updated on the status of their complaints, enhancing accountability.",
-          "para3": "RaiseIT uses React Native for a seamless mobile experience, with Node.js and Express powering the server-side. MongoDB ensures secure and efficient data management for complaint tracking."
+          "para1": "The RaiseIT App is a mobile application designed to streamline the process of reporting grievances to the local municipal corporation. The app allows citizens to create posts with detailed descriptions, images, locations, and tags to highlight specific issues. These posts are visible in a user-friendly feed where other users can view, like, and engage with them",
+          "para2": "The application leverages a modern tech stack to ensure robust performance and usability. React Native, powered by Expo, forms the foundation for developing a cross-platform mobile app. Firebase plays a crucial role by providing real-time database capabilities for instant updates, user authentication for secure access, and cloud storage for media uploads.",
+          "para3": "Form handling and validation are efficiently managed with Formik and Yup, while React Navigation provides a smooth navigation experience. To persist data locally, the app utilizes AsyncStorage for user information caching."
         }
       },
       {
         "title": "Portfolio Website",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, illo quos sit aliquid commodi ipsum",
-        "imageUrl": "https://picsum.photos/300",
+        "subTitle": "The Portfolio Application is a web platform designed to highlight an individual’s professional achievements, build using React and Material UI.",
+        "imageUrl": "src/assets/portfolio-banner.png",
         "projectOverView": "A portfolio website showcasing personal projects, skills, and work experience. Built with a responsive design.",
         "techUsed": [
           {
-            "name": "Next.js",
-            "link": "https://cdn-icons-png.flaticon.com/512/919/919841.png"
+            "name": "React.js",
+            "link": "https://cdn.worldvectorlogo.com/logos/react-2.svg"
           },
           {
-            "name": "Tailwind CSS",
-            "link": "https://cdn-icons-png.flaticon.com/512/732/732140.png"
+            "name": "Material-UI",
+            "link": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
+          },
+          {
+            "name": "TypeScript",
+            "link": "https://cdn.worldvectorlogo.com/logos/typescript.svg"
+          },
+          {
+            "name": "Web3Forms",
+            "link": "https://avatars.githubusercontent.com/u/108538794?s=200&v=4"
           }
         ],
         "gitLink": "https://github.com/PratikNichit/portfolio",
+        "viewLink": "https://raiseit.example.com",
         "details": {
-          "para1": "The portfolio website serves as a professional showcase, highlighting personal projects, technical skills, and work experience. It provides a clear and organized overview of achievements and capabilities.",
-          "para2": "Designed with responsiveness in mind, the site adapts seamlessly to various devices and screen sizes. This ensures an optimal user experience for both desktop and mobile users.",
-          "para3": "Built using Next.js for server-side rendering and Tailwind CSS for styling, the portfolio is optimized for performance and aesthetics. It reflects a strong focus on design and functionality."
+          "para1": "The Portfolio Application is a comprehensive and visually appealing web platform designed to highlight an individual’s professional achievements, projects, skills, and experience. Built using React and TypeScript, the application leverages modern development tools like Vite for fast build times and efficient performance.",
+          "para2": "The portfolio dynamically renders content from a data.json file, allowing for effortless customization without modifying the codebase. Styled with Material-UI, the application emphasizes a professional aesthetic, while Zod and React Hook Form handle robust form validation and submission. React Router ensures smooth navigation between pages, and React Markdown is utilized for rendering markdown-based content",
+          "para3": "This project serves as a digital resume, ideal for students, freelancers, and professionals seeking to create a polished online presence."
         }
       },
       {
-        "title": "Weather App",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, illo quos sit aliquid commodi ipsum",
-        "imageUrl": "https://picsum.photos/300",
+        "title": "Network Analyzer Tool",
+        "subTitle": "The Network Analyzer Tool is a Python-based application for capturing and analyzing network traffic in real time Using Scapy",
+        "imageUrl": "src/assets/netwatcher-banner.png",
         "projectOverView": "A web app that fetches real-time weather updates for any location using a public API.",
         "techUsed": [
           {
-            "name": "React",
-            "link": "https://cdn-icons-png.flaticon.com/512/174/174854.png"
+            "name": "Python",
+            "link": "https://www.svgrepo.com/show/376344/python.svg"
           },
           {
-            "name": "API Integration",
-            "link": "https://cdn-icons-png.flaticon.com/512/919/919830.png"
-          },
-          {
-            "name": "CSS",
-            "link": "https://cdn-icons-png.flaticon.com/512/732/732190.png"
+            "name": "Scapy",
+            "link": "https://mikeward.net/wp-content/uploads/2019/07/logo.png"
           }
         ],
         "gitLink": "https://github.com/PratikNichit/weather-app",
         "details": {
-          "para1": "The Weather App provides real-time weather updates for any location by fetching data from a public weather API. Users can search for cities or use their current location for updates.",
-          "para2": "The application displays information like temperature, humidity, and weather conditions in an intuitive format. It ensures data accuracy and updates automatically based on API responses.",
-          "para3": "Developed using React, the app leverages clean CSS for styling. Its lightweight architecture ensures fast performance and smooth functionality across different devices."
+          "para1": "The Network Analyzer Tool is a Python-based application for capturing and analyzing network traffic in real time. Using Scapy, it can sniff packets on a selected network interface and classify them by protocol, such as TCP, UDP, ICMP, and ARP. It helps with network diagnostics, security analysis, and troubleshooting. Key features include filtering packets, exporting data to CSV, and displaying network traffic statistics, making it useful for network administrators and cybersecurity professionals",
+          "para2": "Built with Python, the tool leverages Scapy for packet manipulation and analysis. Tabulate presents data in a readable table format, while Python’s CSV module enables exporting packet logs. The logging module records events and errors for debugging. These technologies work together to provide an efficient and flexible network analysis solution.",
+          "para3": "With a simple setup and command-line interface, the tool is easy to use for all skill levels. Its interactive menu allows filtering, viewing details, and analyzing traffic efficiently. Whether for learning, penetration testing, or network monitoring, this tool offers valuable insights into data transmission and security."
         }
       }
     ]

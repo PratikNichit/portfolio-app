@@ -56,7 +56,7 @@ export const ContactMe = () => {
               },
             }}
           >
-            Feel free to Contact me I will get back to ou as soon as possible
+            Feel free to Contact me I will get back to you as soon as possible
           </Typography>
           <Button
             size="large"

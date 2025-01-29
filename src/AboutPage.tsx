@@ -13,6 +13,7 @@ import data from "./data.json";
 import { useState } from "react";
 import { FormModal } from "./Components/FormModal";
 
+
 interface AboutMePage {
   para1: string;
   para2: string;

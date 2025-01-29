@@ -92,7 +92,7 @@ export const ExperienceCard = ({
                   fontWeight: 500,
                   mb: 2,
                   fontSize: {
-                    xs: 12,
+                    xs: 14,
                     sm: 20,
                     md: 18,
                   },

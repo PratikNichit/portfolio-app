@@ -16,7 +16,7 @@ interface Props {
     link: string;
   }[],
   gitLink: string;
-  ViewLink?: string;
+  viewLink?: string;
   details: {
     para1: string;
     para2: string;
@@ -31,7 +31,7 @@ export const ProjectCard = ({
   projectOverView,
   techUsed,
   gitLink,
-  ViewLink,
+  viewLink,
   details,
 }: Props) => {
 
@@ -46,7 +46,7 @@ export const ProjectCard = ({
         projectOverView,
         techUsed,
         gitLink,
-        ViewLink,
+        viewLink,
         details
       }
     })
