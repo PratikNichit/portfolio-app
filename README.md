@@ -2,6 +2,10 @@
 
 This is a portfolio application built with React, TypeScript, and Vite. It showcases personal projects, skills, and work experience.
 
+# Visit the website 
+ 
+ - https://pratiknichit.vercel.app/ 
+
 ## Table of Contents
 
 - [Installation](#installation)
