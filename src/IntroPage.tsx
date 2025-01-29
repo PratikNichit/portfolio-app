@@ -60,7 +60,7 @@ export const IntroPage = () => {
             },
             height: {
               xs: "50vw",
-              sm: "20vw",
+              sm: "40vw",
               md: "20vw",
             },
             display: "flex",
