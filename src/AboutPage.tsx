@@ -28,6 +28,8 @@ export const AboutPage = () => {
 
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+
+
   return (
     <Box sx={{ backgroundColor: "#fcfcfc" }}>
       <Container sx={{ margin: "10px auto" }}>

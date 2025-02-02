@@ -196,7 +196,7 @@
         "details": {
           "para1": "The Network Analyzer Tool is a Python-based application for capturing and analyzing network traffic in real time. Using Scapy, it can sniff packets on a selected network interface and classify them by protocol, such as TCP, UDP, ICMP, and ARP. It helps with network diagnostics, security analysis, and troubleshooting. Key features include filtering packets, exporting data to CSV, and displaying network traffic statistics, making it useful for network administrators and cybersecurity professionals",
           "para2": "Built with Python, the tool leverages Scapy for packet manipulation and analysis. Tabulate presents data in a readable table format, while Python’s CSV module enables exporting packet logs. The logging module records events and errors for debugging. These technologies work together to provide an efficient and flexible network analysis solution.",
-          "para3": "With a simple setup and command-line interface, the tool is easy to use for all skill levels. Its interactive menu allows filtering, viewing details, and analyzing traffic efficiently. Whether for learning, penetration testing, or network monitoring, this tool offers valuable insights into data transmission and security."
+          "para3": "With a simple setup & command-line interface, the tool is easy to use for all skill levels. Its interactive menu allows filtering, viewing details, and analyzing traffic efficiently. Whether for learning, penetration testing, or network monitoring, this tool offers valuable insights into data transmission and security."
         }
       }
     ]
