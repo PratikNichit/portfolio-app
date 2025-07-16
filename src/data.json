@@ -39,9 +39,15 @@
   "experiencePage": {
     "jobs": [
       {
+        "role": "Full Stack Developer Intern",
+        "companyName": "Aroma Brand Sloutions",
+        "date": "Feb 2025 - May 2025",
+        "description": "Remote-based company delivering software solutions and digital marketing services. Developed EduScore (secure online exam platform) and a mass mailing app using ASP.NET, C#, and MongoDB. Handled full-stack development with React, Node.js, and Azure-based deployment for scalability."
+      },
+      {
         "role": "Frontend Developer",
         "companyName": "Herbs Magic",
-        "date": "Oct 2024 - Feb 2024",
+        "date": "Oct 2023 - Feb 2024",
         "description": "Designed and developed user-friendly web interfaces leveraging Next.js, Material UI, and Tailwind CSS, ensuring seamless user experiences. Optimized UI performance and collaborated closely with designers to implement features efficiently, resulting in a more polished and responsive application."
       },
       {
@@ -175,6 +181,47 @@
           "para1": "The Portfolio Application is a comprehensive and visually appealing web platform designed to highlight an individual’s professional achievements, projects, skills, and experience. Built using React and TypeScript, the application leverages modern development tools like Vite for fast build times and efficient performance.",
           "para2": "The portfolio dynamically renders content from a data.json file, allowing for effortless customization without modifying the codebase. Styled with Material-UI, the application emphasizes a professional aesthetic, while Zod and React Hook Form handle robust form validation and submission. React Router ensures smooth navigation between pages, and React Markdown is utilized for rendering markdown-based content",
           "para3": "This project serves as a digital resume, ideal for students, freelancers, and professionals seeking to create a polished online presence."
+        }
+      },
+      {
+        "title": "Sanika Plast Business Portfolio",
+        "subTitle": "Corporate portfolio site highlighting Sanika Plast Pvt. Ltd., a precision plastic manufacturing company in Pune.",
+        "imageUrl": "/sanikaplast-banner.png",
+        "projectOverView": "A professional web portfolio developed to showcase Sanika Plast Pvt. Ltd.'s manufacturing capabilities, certifications, client base, and contact features.",
+        "techUsed": [
+          { "name": "React", "link": "https://reactjs.org/logo-og.png" },
+          {
+            "name": "TypeScript",
+            "link": "https://www.svgrepo.com/show/354259/typescript.svg"
+          },
+          { "name": "Vite", "link": "https://vitejs.dev/logo.svg" },
+          {
+            "name": "Tailwind CSS",
+            "link": "https://www.svgrepo.com/show/448234/tailwind-css-icon.svg"
+          },
+          {
+            "name": "Framer Motion",
+            "link": "https://www.svgrepo.com/show/353347/framer-motion-icon.svg"
+          },
+          {
+            "name": "React Router",
+            "link": "https://reactrouter.com/favicon.ico"
+          },
+          {
+            "name": "Radix UI",
+            "link": "https://www.svgrepo.com/show/499335/radix-ui.svg"
+          },
+          {
+            "name": "Lucide Icons",
+            "link": "https://www.svgrepo.com/show/354021/lucide.svg"
+          }
+        ],
+        "viewLink": "https://sanikaplast.vercel.app/",
+        "gitLink": null,
+        "details": {
+          "para1": "Sanika Plast Pvt. Ltd. is a Pune-based private limited company (CIN: U25209PN2018PTC180565), established in December 2018. They specialize in manufacturing precision rubber and plastic components for industrial use and hold multiple certifications.",
+          "para2": "The website is built with a modern stack—React, TypeScript, Vite, and styled via Tailwind CSS—offering responsive layouts and engaging animations powered by Framer Motion. It features modular components from Radix UI and intuitive client-side routing via React Router.",
+          "para3": "Key sections include company overview, product galleries, certifications, client logos, and a contact form with toast notifications. It provides a robust yet lightweight showcase of Sanika Plast’s brand identity, capabilities, and technology-driven approach."
         }
       },
       {
