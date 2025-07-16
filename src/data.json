@@ -217,7 +217,7 @@
           }
         ],
         "viewLink": "https://sanikaplast.vercel.app/",
-        "gitLink": null,
+        "gitLink": "https://github.com/PratikNichit/Sanika-plast-portfolio",
         "details": {
           "para1": "Sanika Plast Pvt. Ltd. is a Pune-based private limited company (CIN: U25209PN2018PTC180565), established in December 2018. They specialize in manufacturing precision rubber and plastic components for industrial use and hold multiple certifications.",
           "para2": "The website is built with a modern stack—React, TypeScript, Vite, and styled via Tailwind CSS—offering responsive layouts and engaging animations powered by Framer Motion. It features modular components from Radix UI and intuitive client-side routing via React Router.",

@@ -15,9 +15,9 @@ const info: Info = data.info;
 export const IntroPage = () => {
   const handleSocialClick = (platform: string) => {
     const links = {
-      linkedin: "https://linkedin.com/in/yourprofile", // Replace with your LinkedIn
-      twitter: "https://twitter.com/yourhandle", // Replace with your Twitter
-      github: "https://github.com/yourusername", // Replace with your GitHub
+      linkedin: "https://www.linkedin.com/in/pratik-nichit-a58a83206/", // Replace with your LinkedIn
+      twitter: "https://x.com/PratikNichit8", // Replace with your Twitter
+      github: "https://github.com/PratikNichit", // Replace with your GitHub
     };
     window.open(links[platform as keyof typeof links], "_blank");
   };
