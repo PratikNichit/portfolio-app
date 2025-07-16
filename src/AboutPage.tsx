@@ -13,7 +13,6 @@ import data from "./data.json";
 import { useState } from "react";
 import { FormModal } from "./Components/FormModal";
 
-
 interface AboutMePage {
   para1: string;
   para2: string;
@@ -28,8 +27,6 @@ export const AboutPage = () => {
 
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-
-
   return (
     <Box sx={{ backgroundColor: "#fcfcfc" }}>
       <Container sx={{ margin: "10px auto" }}>
