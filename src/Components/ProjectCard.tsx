@@ -78,7 +78,6 @@ export const ProjectCard = ({
         onClose={handleClose}
         title={title}
         subTitle={subTitle}
-        imageUrl={imageUrl}
         bannerImage={bannerImage}
         projectOverView={projectOverView}
         techUsed={techUsed}

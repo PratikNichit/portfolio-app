@@ -31,7 +31,6 @@ interface Props {
   onClose: () => void;
   title: string;
   subTitle: string;
-  imageUrl: string;
   bannerImage: string;
   projectOverView: string;
   techUsed: TechStack[];
@@ -52,7 +51,6 @@ export const ProjectDetailModal = ({
   open,
   onClose,
   title,
-  imageUrl,
   bannerImage,
   techUsed,
   gitLink,
