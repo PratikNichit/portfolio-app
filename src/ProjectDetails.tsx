@@ -1,15 +1,17 @@
 import { Box, Grid, Typography, Container, Button } from "@mui/material";
 import { SubTitle } from "./Components/SubTitle";
 import { SelfInfo } from "./Components/SelfInfo";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 
 export const ProjectDetails = () => {
   const { state } = useLocation();
+  const navigate = useNavigate();
   const project = state;
   const subtitle = "Here you will find more about the project " + project.title;
 
-  // Scroll to the top when the component is mounted
+  // Scroll to top only on fresh visit (not on back navigation)
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -20,6 +22,23 @@ export const ProjectDetails = () => {
 
   return (
     <Container sx={{ mb: 5 }}>
+      {/* Back button */}
+      <Box sx={{ pt: 3, pb: 1 }}>
+        <Button
+          startIcon={<ArrowBackIcon />}
+          onClick={() => navigate(-1)}
+          sx={{
+            textTransform: "none",
+            color: "#7610f7",
+            fontWeight: 600,
+            fontSize: 14,
+            px: 0,
+            "&:hover": { background: "transparent", opacity: 0.75 },
+          }}
+        >
+          Back to Projects
+        </Button>
+      </Box>
       <SubTitle title={project.title} description={subtitle} />
       <Grid container spacing={5} sx={{ mt: 5 }}>
         <Grid item xs={12} md={6}>
@@ -41,10 +60,10 @@ export const ProjectDetails = () => {
             <Box
               sx={{
                 display: "flex",
-                flexWrap: "wrap", 
+                flexWrap: "wrap",
                 gap: 4,
                 borderRadius: 2,
-                justifyContent: "flex-start", 
+                justifyContent: "flex-start",
                 py: 2,
                 fontWeight: 600,
               }}
@@ -55,14 +74,14 @@ export const ProjectDetails = () => {
                     key={index}
                     sx={{
                       width: {
-                        xs: "50px", 
-                        sm: "60px", 
-                        md: "80px", 
+                        xs: "50px",
+                        sm: "60px",
+                        md: "80px",
                       },
                       height: {
-                        xs: "50px", 
-                        sm: "60px", 
-                        md: "80px", 
+                        xs: "50px",
+                        sm: "60px",
+                        md: "80px",
                       },
                       display: "flex",
                       justifyContent: "flex-start",
@@ -75,7 +94,7 @@ export const ProjectDetails = () => {
                       style={{
                         height: "100%",
                         width: "100%",
-                        objectFit: "contain", 
+                        objectFit: "contain",
                       }}
                     />
                   </Box>
@@ -115,7 +134,7 @@ export const ProjectDetails = () => {
             >
               GitHub
             </Button>
-            {project.viewLink && ( 
+            {project.viewLink && (
               <Button
                 variant="contained"
                 size="large"
@@ -123,7 +142,7 @@ export const ProjectDetails = () => {
                 sx={{ my: 4, ml: 2 }}
                 href={project.viewLink}
                 target="_blank"
-              > 
+              >
                 Visit
               </Button>
             )}

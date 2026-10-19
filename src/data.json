@@ -10,30 +10,85 @@
     "instagramUrl": "https://www.instagram.com/pratik_nichit14/",
     "xUrl": "https://x.com/PratikNichit8"
   },
+  "educationPage": {
+    "education": [
+      {
+        "degree": "B.Tech, Electronics & Telecommunication",
+        "institution": "Vishwakarma Institute of Technology",
+        "score": "CGPA: 8.46",
+        "date": "Aug 2023 – May 2026"
+      },
+      {
+        "degree": "Diploma, Information Technology",
+        "institution": "AISSMS Polytechnic",
+        "score": "89%",
+        "date": "Dec 2020 – May 2023"
+      },
+      {
+        "degree": "CBSE (Class 10)",
+        "institution": "JSPM's Prodigy Public School",
+        "score": "78%",
+        "date": "2019 – Sept 2020"
+      }
+    ]
+  },
+  "certificationsPage": {
+    "certifications": [
+      {
+        "name": "Microsoft Azure Fundamentals (AZ-900)",
+        "issuer": "Microsoft",
+        "date": "Sept 2024",
+        "credentialUrl": "https://learn.microsoft.com/api/credentials/share/en-us/PratikNichit-7864/B06AC86A103E27FC?sharingId=932EE7813C8920F6"
+      },
+      {
+        "name": "AWS Cloud Technology Consultant",
+        "issuer": "Coursera Professional Certificate",
+        "date": "2024",
+        "credentialUrl": "https://www.coursera.org/account/accomplishments/professional-cert/YXA74RBEGXGC?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof"
+      }
+    ]
+  },
   "aboutMePage": {
     "para1": "I'm a <strong>Full Stack Developer</strong> mainly focusing on building and managing Web, Mobile, and Windows Applications that lead to the success of the overall product. Check out some of my work in the Projects section.",
     "para2": "I also like sharing content related to the stuff that I have learned over the years in Software Development so it can help other people in the Dev Community. Feel free to connect or follow me on my <strong> <a href=\"https://www.linkedin.com/in/pratik-nichit-a58a83206/\" style=\"color: #7610f7; text-decoration: none;\">LinkedIn</a> </strong> and <strong> <a href=\"https://github.com/PratikNichit/\" style=\"color: #7610f7; text-decoration: none;\">GitHub</a> </strong>, where I am open to discussion and collaboration related to Software Development and Programming.",
     "para3": "I'm open to job opportunities where I can contribute, learn, and grow. If you have a good opportunity that matches my skills and experience, then don't hesitate to contact me.",
     "skills": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "TypeScript",
-      "React",
-      "React Native",
-      "Node",
-      "Express.js",
-      "MongoDB",
-      "MySQL",
-      "Shell Script",
-      "Microsoft Azure",
-      "Next.js",
-      "Tailwind CSS",
-      "Material UI",
-      "ASP.NET",
-      "Java",
-      "Git",
-      "GitHub"
+      {
+        "category": "Programming & Scripting Languages",
+        "items": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "Java",
+          "PHP",
+          "Shell Script"
+        ]
+      },
+      {
+        "category": "Frameworks & Libraries",
+        "items": [
+          "React",
+          "React Native",
+          "Next.js",
+          "Node.js",
+          "Express.js",
+          "ASP.NET",
+          "Material UI",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "category": "Databases, Tools & Cloud",
+        "items": [
+          "MongoDB",
+          "MySQL",
+          "Git",
+          "GitHub",
+          "Microsoft Azure",
+          "WordPress"
+        ]
+      }
     ]
   },
   "experiencePage": {
@@ -60,6 +115,131 @@
   },
   "projectPage": {
     "ProjectList": [
+      {
+        "title": "Asset Management SaaS Platform",
+        "subTitle": "A responsive multi-tenant SaaS platform for registering, assigning, tracking and reporting on organizational assets.",
+        "imageUrl": "/Asset-Dashboard.png",
+        "bannerImage": "/Asset-Management-SaaS-Dashboard-Banner.png",
+        "projectOverView": "A multi-tenant SaaS platform with dashboards, forms, tables and reports for managing the full lifecycle of assets.",
+        "techUsed": [
+          {
+            "name": "React.js",
+            "link": "/logos/React.png"
+          },
+          {
+            "name": "TypeScript",
+            "link": "/logos/TypeScript.png"
+          },
+          {
+            "name": "Material-UI",
+            "link": "/logos/Material UI.png"
+          },
+          {
+            "name": "Redux Toolkit",
+            "link": "/logos/Redux.png"
+          },
+          {
+            "name": "Supabase",
+            "link": "/logos/supabase.png"
+          },
+          {
+            "name": "React Query",
+            "link": "/logos/react-query.png"
+          },
+          {
+            "name": "React Hook Form",
+            "link": "/logos/react-hook-form.png"
+          },
+          {
+            "name": "Zod",
+            "link": "/logos/zod.png"
+          }
+        ],
+        "gitLink": "https://github.com/PratikNichit/REPLACE-WITH-REPO-NAME",
+        "viewLink": "https://REPLACE-WITH-LIVE-DEMO.example.com",
+        "details": {
+          "para1": "The Asset Management SaaS Platform is a responsive, multi-tenant web application built with reusable Material UI components, covering dashboards, forms, tables and reporting interfaces.",
+          "para2": "It supports asset registration, assignment, transfer and maintenance, along with QR identification and a full asset history. Analytics dashboards include KPI cards, cost analysis and reports.",
+          "para3": "Built using React.js and TypeScript, with Redux Toolkit and React Query for state and data fetching, and React Hook Form with Zod for reliable form validation."
+        }
+      },
+      {
+        "title": "PratikGroup",
+        "subTitle": "PratikGroup is a live business management mobile app that digitizes inventory, sales, invoicing, customers, vendors and staff for a retail store in Wagholi, Pune.",
+        "imageUrl": "/pratikgroup-banner.png",
+        "projectOverView": "A cross-platform business management app (Android, iOS, Web) that replaced paper records and Excel sheets for a real retail business.",
+        "techUsed": [
+          {
+            "name": "React Native",
+            "link": "/logos/React.png"
+          },
+          {
+            "name": "Expo",
+            "link": "/logos/expo.png"
+          },
+          {
+            "name": "TypeScript",
+            "link": "/logos/TypeScript.png"
+          },
+          {
+            "name": "Supabase",
+            "link": "/logos/supabase.png"
+          },
+          {
+            "name": "PostgreSQL",
+            "link": "/logos/PostgresSQL.png"
+          }
+        ],
+        "gitLink": "https://github.com/PratikNichit/REPLACE-WITH-REPO-NAME",
+        "viewLink": "https://REPLACE-WITH-LIVE-LINK.example.com",
+        "details": {
+          "para1": "PratikGroup is a cross-platform app for Android, iOS and Web that digitized inventory, sales, invoicing, customer, vendor and staff management for a real retail store in Wagholi, Pune, replacing paper records and Excel sheets.",
+          "para2": "It generates branded PDF invoices with an Indian number-to-words converter (Lakhs/Crores), shareable via WhatsApp and email in under 10 seconds, with a searchable invoice history. Sales analytics dashboards show monthly KPIs, weekly bar charts and cash vs. online breakdowns, along with a one-tap monthly sales report exported as PDF.",
+          "para3": "Built with React Native (Expo SDK 54), TypeScript, Expo Router and Supabase (PostgreSQL, Auth, Storage, RLS), with Reanimated for animations. Security comes from Supabase Auth, encrypted JWT storage and Row Level Security, while pagination, debounced search and optimistic UI updates keep it fast. The app was shipped via Expo EAS."
+        }
+      },
+      {
+        "title": "Invoice & Inventory Management System",
+        "subTitle": "A B2B system for customer management, invoicing, stock tracking and analytics, integrated with REST APIs.",
+        "imageUrl": "/invoice-banner.png",
+        "projectOverView": "A B2B web app for managing customers, generating invoices with PDF exports, tracking stock and viewing analytics dashboards.",
+        "techUsed": [
+          {
+            "name": "React",
+            "link": "/logos/react.svg"
+          },
+          {
+            "name": "TypeScript",
+            "link": "/logos/typescript.svg"
+          },
+          {
+            "name": "Vite",
+            "link": "/logos/vite.svg"
+          },
+          {
+            "name": "Material-UI",
+            "link": "/logos/material-ui.svg"
+          },
+          {
+            "name": "Axios",
+            "link": "/logos/axios.svg"
+          },
+          {
+            "name": "Recharts",
+            "link": "/logos/recharts.svg"
+          },
+          {
+            "name": "jsPDF",
+            "link": "/logos/jspdf.svg"
+          }
+        ],
+        "gitLink": "https://github.com/PratikNichit/REPLACE-WITH-REPO-NAME",
+        "details": {
+          "para1": "The Invoice & Inventory Management System is a B2B application that brings customer management, invoice generation, stock tracking and analytics dashboards into one place, integrated with REST APIs.",
+          "para2": "Invoices can be exported as PDFs with QR codes, and analytics dashboards present the data visually.",
+          "para3": "Built using React 19, TypeScript and Vite, styled with Material UI, with Axios for API calls, Recharts for charts and jsPDF for PDF generation."
+        }
+      },
       {
         "title": "Ecomzy",
         "subTitle": "Ecomzy is a dynamic e-commerce platform that allows users to explore products across various categories. The interface is user-friendly",
@@ -101,8 +281,8 @@
         "projectOverView": "A web app for creating, updating, and deleting notes and to-do lists, with persistent storage using local storage.",
         "techUsed": [
           {
-            "name": "React.js",
-            "link": "https://cdn.worldvectorlogo.com/logos/react-2.svg"
+            "name": "React",
+            "link": "/logos/React.png"
           },
           {
             "name": "Firebase Firestore",
@@ -129,7 +309,7 @@
         "techUsed": [
           {
             "name": "React Native",
-            "link": "https://cdn.worldvectorlogo.com/logos/react-native-1.svg"
+            "link": "/logos/react.svg"
           },
           {
             "name": "Expo",
@@ -159,20 +339,20 @@
         "projectOverView": "A portfolio website showcasing personal projects, skills, and work experience. Built with a responsive design.",
         "techUsed": [
           {
-            "name": "React.js",
-            "link": "https://cdn.worldvectorlogo.com/logos/react-2.svg"
+            "name": "React",
+            "link": "/logos/React.png"
           },
           {
             "name": "Material-UI",
-            "link": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
+            "link": "/logos/Material UI.png"
           },
           {
             "name": "TypeScript",
-            "link": "https://cdn.worldvectorlogo.com/logos/typescript.svg"
+            "link": "/logos/TypeScript.png"
           },
           {
             "name": "Web3Forms",
-            "link": "https://avatars.githubusercontent.com/u/108538794?s=200&v=4"
+            "link": "/logos/wed-3-forms.png"
           }
         ],
         "gitLink": "https://github.com/PratikNichit/portfolio-app",
@@ -189,12 +369,18 @@
         "imageUrl": "/sanikaplast-banner.png",
         "projectOverView": "A professional web portfolio developed to showcase Sanika Plast Pvt. Ltd.'s manufacturing capabilities, certifications, client base, and contact features.",
         "techUsed": [
-          { "name": "React", "link": "https://reactjs.org/logo-og.png" },
+          {
+            "name": "React",
+            "link": "https://reactjs.org/logo-og.png"
+          },
           {
             "name": "TypeScript",
             "link": "https://www.svgrepo.com/show/354259/typescript.svg"
           },
-          { "name": "Vite", "link": "https://vitejs.dev/logo.svg" },
+          {
+            "name": "Vite",
+            "link": "https://vitejs.dev/logo.svg"
+          },
           {
             "name": "Tailwind CSS",
             "link": "https://www.svgrepo.com/show/448234/tailwind-css-icon.svg"

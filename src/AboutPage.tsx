@@ -13,20 +13,32 @@ import data from "./data.json";
 import { useState } from "react";
 import { FormModal } from "./Components/FormModal";
 
+interface SkillCategory {
+  category: string;
+  items: string[];
+}
+
 interface AboutMePage {
   para1: string;
   para2: string;
   para3: string;
-  skills: string[];
+  skills: SkillCategory[];
 }
 
 const aboutData: AboutMePage = data.aboutMePage;
+
+const headingSx = {
+  fontWeight: 800,
+  mb: 2,
+  fontSize: { xs: 17, sm: 20, md: 25 },
+};
 
 export const AboutPage = () => {
   const [open, setOpen] = useState(false);
 
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+
   return (
     <Box sx={{ backgroundColor: "#fcfcfc" }}>
       <Container sx={{ margin: "10px auto" }}>
@@ -39,18 +51,7 @@ export const AboutPage = () => {
           {/* Left Section */}
           <Grid item xs={12} sm={6}>
             <Box>
-              <Typography
-                variant="h2"
-                sx={{
-                  fontWeight: 800,
-                  mb: 2,
-                  fontSize: {
-                    xs: 17,
-                    sm: 20,
-                    md: 25,
-                  },
-                }}
-              >
+              <Typography variant="h2" sx={headingSx}>
                 Get to Know Me !
               </Typography>
               <Typography>
@@ -74,41 +75,29 @@ export const AboutPage = () => {
 
           {/* Right Section */}
           <Grid item xs={12} sm={6}>
-            <Box>
-              <Typography
-                variant="h2"
-                sx={{
-                  fontWeight: 800,
-                  mb: 2,
-                  fontSize: {
-                    xs: 17,
-                    sm: 20,
-                    md: 25,
-                  },
-                }}
-              >
-                My Skills
-              </Typography>
-              <Box sx={{ display: "flex", flexWrap: "wrap", gap: 2 }}>
-                {aboutData.skills.map((skill) => (
-                  <Chip
-                    key={skill}
-                    label={skill}
-                    size="medium"
-                    sx={{
-                      borderRadius: 2,
-                      fontSize: {
-                        xs: 15,
-                        sm: 15,
-                        md: 18,
-                      },
-                      py: 2,
-                      fontWeight: 600,
-                    }}
-                  />
-                ))}
+            <Typography variant="h2" sx={headingSx}>
+              My Skills
+            </Typography>
+            {aboutData.skills.map(({ category, items }) => (
+              <Box key={category} sx={{ mb: 3 }}>
+                <Typography variant="subtitle1" sx={{ fontWeight: 700, mb: 1 }}>
+                  {category}
+                </Typography>
+                <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1.5 }}>
+                  {items.map((skill) => (
+                    <Chip
+                      key={skill}
+                      label={skill}
+                      sx={{
+                        borderRadius: 2,
+                        fontSize: { xs: 14, md: 16 },
+                        fontWeight: 600,
+                      }}
+                    />
+                  ))}
+                </Box>
               </Box>
-            </Box>
+            ))}
           </Grid>
         </Grid>
       </Container>

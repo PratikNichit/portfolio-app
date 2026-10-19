@@ -6,6 +6,7 @@ interface Project {
   title: string;
   subTitle: string;
   imageUrl: string;
+  bannerImage?: string;
   projectOverView: string;
   techUsed: {
     name: string;
@@ -51,6 +52,7 @@ export const ProjectPage = ({ ProjectList }: Props) => {
               title={project.title}
               subTitle={project.subTitle}
               imageUrl={project.imageUrl}
+              bannerImage={project.bannerImage || project.imageUrl}
               projectOverView={project.projectOverView}
               techUsed={project.techUsed}
               gitLink={project.gitLink}

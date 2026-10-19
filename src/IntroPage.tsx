@@ -107,9 +107,9 @@ export const IntroPage = () => {
             fontWeight: 700,
             mt: 5,
             fontSize: {
-              xs: 40,
-              sm: 32,
-              md: 50,
+              xs: 38,
+              sm: 30,
+              md: 48,
             },
             opacity: 0,
             animation: "fadeInUp 1s ease-out 0.2s forwards",
@@ -133,12 +133,11 @@ export const IntroPage = () => {
           sx={{
             textAlign: "center",
             fontWeight: 400,
-            fontFamily: '"M PLUS Rounded 1c", sans-serif',
             mt: 3,
             fontSize: {
-              xs: 17,
-              sm: 15,
-              md: 20,
+              xs: 19,
+              sm: 17,
+              md: 22,
             },
             opacity: 0,
             animation: "fadeInUp 1s ease-out 0.4s forwards",

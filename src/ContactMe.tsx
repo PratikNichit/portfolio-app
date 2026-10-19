@@ -16,7 +16,7 @@ export const ContactMe = () => {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   return (
-    <Box sx={{ mt: 8 }}>
+    <Box>
       <Container sx={{ mt: 5 }}>
         <Stack
           sx={{

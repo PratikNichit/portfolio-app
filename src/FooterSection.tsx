@@ -132,7 +132,7 @@ export const FooterSection = () => {
             },
           }}
         >
-          © Copyright 2025. Made by {data.info.name}
+          © Copyright 2026. Made by {data.info.name}
         </Typography>
       </Container>
     </Box>

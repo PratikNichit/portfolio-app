@@ -24,27 +24,38 @@ export const ExperiencePage = () => {
   return (
     <Box
       sx={{
+        width: "100%",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        mb: 5,
-        mt: 5,
+        my: { xs: 4, md: 6 },
+        boxSizing: "border-box",
       }}
     >
       <SubTitle
         title="Work Experience"
         description="Here you find out more about my work experiences"
       />
-      <br />
-      {jobs.map((job, index) => (
-        <ExperienceCard
-          key={index}
-          role={job.role}
-          companyName={job.companyName}
-          date={job.date}
-          discription={job.description}
-        />
-      ))}
+      <Box sx={{ mt: { xs: 3, md: 5 } }} />
+      <Box
+        sx={{
+          width: "100%",
+          maxWidth: 900,
+          px: { xs: 2, sm: 3, md: 4 },
+          boxSizing: "border-box",
+        }}
+      >
+        {jobs.map((job, index) => (
+          <ExperienceCard
+            key={index}
+            role={job.role}
+            companyName={job.companyName}
+            date={job.date}
+            discription={job.description}
+            isLast={index === jobs.length - 1}
+          />
+        ))}
+      </Box>
       <Button
         size="large"
         variant="contained"
@@ -64,6 +75,7 @@ export const ExperiencePage = () => {
             md: "15px 20px",
           },
           minWidth: 200,
+          mt: 5,
         }}
         onClick={startDownload}
       >

@@ -123,29 +123,24 @@ export const NavBar = () => {
             onClick={handleOpen}
             sx={{
               textTransform: "none",
-              fontSize: {
-                xs: 15,
-                sm: 15,
-                md: 18,
-              },
+              fontSize: { xs: 15, sm: 15, md: 18 },
               fontWeight: 600,
               borderRadius: 10,
               position: "relative",
               overflow: "hidden",
+              isolation: "isolate",
               transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
               "&::before": {
                 content: '""',
                 position: "absolute",
-                top: 0,
-                left: 0,
+                inset: 0,
                 width: "0%",
-                height: "100%",
                 backgroundColor: "secondary.main",
                 transition: "width 0.3s ease-in-out",
-                zIndex: 0,
+                zIndex: -1,
               },
               "&:hover": {
-                color: "white", // Changed to white for better contrast
+                color: "white",
                 borderColor: "secondary.main",
                 transform: "translateY(-2px)",
                 boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
@@ -154,16 +149,7 @@ export const NavBar = () => {
                 width: "100%",
               },
               "&:active": {
-                transform: "translateY(0px)",
-              },
-              "& .MuiButton-label": {
-                position: "relative",
-                zIndex: 1,
-              },
-              // Fix for text positioning
-              "& span": {
-                position: "relative",
-                zIndex: 1,
+                transform: "translateY(0)",
               },
             }}
           >
