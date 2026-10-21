@@ -94,13 +94,31 @@
   "experiencePage": {
     "jobs": [
       {
+        "role": "Jr. Web Developer",
+        "companyName": "Ambit Software",
+        "date": "July 2026 - Present",
+        "description": "Built and maintained a custom WordPress plugin using PHP, JavaScript, React, HTML, and CSS to streamline internal content management and workflow processes, integrating with the WordPress REST API and the admin dashboard. Contributed to IG Portal, an ERP and Digital Twin platform, building reusable front-end components with React and integrating them with a WordPress (PHP) backend, with hands-on experience in VPS deployment and CI/CD pipelines."
+      },
+      {
+        "role": "Web Developer Intern",
+        "companyName": "Ambit Software",
+        "date": "April 2026 - July 2026",
+        "description": "Converted client requirements into responsive websites using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and consistent layouts across desktop, tablet, and mobile. Built and customized WordPress sites with Elementor and PHP to meet client requirements, and identified and fixed frontend, layout, and responsiveness issues."
+      },
+      {
+        "role": "Frontend Developer Intern",
+        "companyName": "Wheelsafar",
+        "date": "July 2025 - Dec 2025",
+        "description": "Developed core Admin Portal modules using React, Redux, Material UI, Axios, React Hook Form, and Zod, improving UI responsiveness, scalability, and form validation reliability. Integrated REST APIs and improved state management, reducing redundant API calls and improving maintainability."
+      },
+      {
         "role": "Full Stack Developer Intern",
-        "companyName": "Aroma Brand Sloutions",
+        "companyName": "Aroma Brand Solutions",
         "date": "Feb 2025 - May 2025",
         "description": "Remote-based company delivering software solutions and digital marketing services. Developed EduScore (secure online exam platform) and a mass mailing app using ASP.NET, C#, and MongoDB. Handled full-stack development with React, Node.js, and Azure-based deployment for scalability."
       },
       {
-        "role": "Frontend Developer",
+        "role": "Frontend Developer Intern",
         "companyName": "Herbs Magic",
         "date": "Oct 2023 - Feb 2024",
         "description": "Designed and developed user-friendly web interfaces leveraging Next.js, Material UI, and Tailwind CSS, ensuring seamless user experiences. Optimized UI performance and collaborated closely with designers to implement features efficiently, resulting in a more polished and responsive application."
