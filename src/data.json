@@ -174,7 +174,7 @@
           }
         ],
         "gitLink": "https://github.com/PratikNichit/REPLACE-WITH-REPO-NAME",
-        "viewLink": "https://REPLACE-WITH-LIVE-DEMO.example.com",
+        "viewLink": "https://atlas-asset-management-system.vercel.app/",
         "details": {
           "para1": "The Asset Management SaaS Platform is a responsive, multi-tenant web application built with reusable Material UI components, covering dashboards, forms, tables and reporting interfaces.",
           "para2": "It supports asset registration, assignment, transfer and maintenance, along with QR identification and a full asset history. Analytics dashboards include KPI cards, cost analysis and reports.",
@@ -209,7 +209,7 @@
           }
         ],
         "gitLink": "https://github.com/PratikNichit/REPLACE-WITH-REPO-NAME",
-        "viewLink": "https://REPLACE-WITH-LIVE-LINK.example.com",
+        "viewLink": "#",
         "details": {
           "para1": "PratikGroup is a cross-platform app for Android, iOS and Web that digitized inventory, sales, invoicing, customer, vendor and staff management for a real retail store in Wagholi, Pune, replacing paper records and Excel sheets.",
           "para2": "It generates branded PDF invoices with an Indian number-to-words converter (Lakhs/Crores), shareable via WhatsApp and email in under 10 seconds, with a searchable invoice history. Sales analytics dashboards show monthly KPIs, weekly bar charts and cash vs. online breakdowns, along with a one-tap monthly sales report exported as PDF.",
