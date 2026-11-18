@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pratiknichit.vercel.app/sitemap.xml
+

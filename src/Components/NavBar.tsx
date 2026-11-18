@@ -62,7 +62,7 @@ export const NavBar = () => {
           }}
         >
           <img
-            src="/icon.png"
+            src="/icon.webp"
             alt="icon"
             style={{
               width: "100%",

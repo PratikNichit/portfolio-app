@@ -13,15 +13,6 @@ interface Info {
 const info: Info = data.info;
 
 export const IntroPage = () => {
-  const handleSocialClick = (platform: string) => {
-    const links = {
-      linkedin: "https://www.linkedin.com/in/pratik-nichit-a58a83206/", // Replace with your LinkedIn
-      twitter: "https://x.com/PratikNichit8", // Replace with your Twitter
-      github: "https://github.com/PratikNichit", // Replace with your GitHub
-    };
-    window.open(links[platform as keyof typeof links], "_blank");
-  };
-
   return (
     <Container sx={{ position: "relative" }}>
       {/* Social Links - Fixed on right side */}
@@ -37,7 +28,11 @@ export const IntroPage = () => {
       >
         <Stack spacing={2}>
           <IconButton
-            onClick={() => handleSocialClick("linkedin")}
+            component="a"
+            href={data.social.linkedInUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Pratik Nichit's LinkedIn profile"
             sx={{
               backgroundColor: "rgba(255, 255, 255, 0.1)",
               border: "2px solid rgba(0, 119, 181, 0.3)",
@@ -55,7 +50,11 @@ export const IntroPage = () => {
           </IconButton>
 
           <IconButton
-            onClick={() => handleSocialClick("twitter")}
+            component="a"
+            href={data.social.xUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Pratik Nichit's X (Twitter) profile"
             sx={{
               backgroundColor: "rgba(255, 255, 255, 0.1)",
               border: "2px solid rgba(29, 161, 242, 0.3)",
@@ -73,7 +72,11 @@ export const IntroPage = () => {
           </IconButton>
 
           <IconButton
-            onClick={() => handleSocialClick("github")}
+            component="a"
+            href={data.social.gitHubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Pratik Nichit's GitHub profile"
             sx={{
               backgroundColor: "rgba(255, 255, 255, 0.1)",
               border: "2px solid rgba(51, 51, 51, 0.3)",
@@ -101,6 +104,7 @@ export const IntroPage = () => {
         }}
       >
         <Typography
+          component="h1"
           variant="h2"
           sx={{
             textAlign: "center",
@@ -194,9 +198,11 @@ export const IntroPage = () => {
           }}
         >
           <img
-            src="/image.png"
-            style={{ width: "100%", height: "100%", borderRadius: 150 }}
-            alt={`${info.name} - Profile`}
+            src="/image.webp"
+            style={{ width: "100%", height: "100%", borderRadius: 150, objectFit: "cover" }}
+            alt={`${info.name} - Full-Stack Developer Profile Picture`}
+            loading="eager"
+            decoding="async"
           />
         </Box>
 
@@ -259,7 +265,11 @@ export const IntroPage = () => {
           }}
         >
           <IconButton
-            onClick={() => handleSocialClick("linkedin")}
+            component="a"
+            href={data.social.linkedInUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Pratik Nichit's LinkedIn profile"
             sx={{
               backgroundColor: "rgba(255, 255, 255, 0.1)",
               border: "2px solid rgba(0, 119, 181, 0.3)",
@@ -277,7 +287,11 @@ export const IntroPage = () => {
           </IconButton>
 
           <IconButton
-            onClick={() => handleSocialClick("twitter")}
+            component="a"
+            href={data.social.xUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Pratik Nichit's X (Twitter) profile"
             sx={{
               backgroundColor: "rgba(255, 255, 255, 0.1)",
               border: "2px solid rgba(29, 161, 242, 0.3)",
@@ -295,7 +309,11 @@ export const IntroPage = () => {
           </IconButton>
 
           <IconButton
-            onClick={() => handleSocialClick("github")}
+            component="a"
+            href={data.social.gitHubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Pratik Nichit's GitHub profile"
             sx={{
               backgroundColor: "rgba(255, 255, 255, 0.1)",
               border: "2px solid rgba(51, 51, 51, 0.3)",

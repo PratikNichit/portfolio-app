@@ -62,7 +62,7 @@ export const FormModal = ({ handleClose, open }: Props) => {
             }}
           >
             <img
-              src="/icon.png"
+              src="/icon.webp"
               alt="icon"
               style={{
                 width: "100%",

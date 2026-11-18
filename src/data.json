@@ -136,8 +136,8 @@
       {
         "title": "Asset Management SaaS Platform",
         "subTitle": "A responsive multi-tenant SaaS platform for registering, assigning, tracking and reporting on organizational assets.",
-        "imageUrl": "/Asset-Dashboard.png",
-        "bannerImage": "/Asset-Management-SaaS-Dashboard-Banner.png",
+        "imageUrl": "/Asset-Dashboard.webp",
+        "bannerImage": "/Asset-Management-SaaS-Dashboard-Banner.webp",
         "projectOverView": "A multi-tenant SaaS platform with dashboards, forms, tables and reports for managing the full lifecycle of assets.",
         "techUsed": [
           {
@@ -261,7 +261,7 @@
       {
         "title": "Ecomzy",
         "subTitle": "Ecomzy is a dynamic e-commerce platform that allows users to explore products across various categories. The interface is user-friendly",
-        "imageUrl": "/ecomzy-banner.png",
+        "imageUrl": "/ecomzy-banner.webp",
         "projectOverView": "An e-commerce website where users can browse, add items to the cart, and purchase products.",
         "techUsed": [
           {
@@ -295,7 +295,7 @@
       {
         "title": "Sticky Notes",
         "subTitle": "The Notes Application is a modern and intuitive web platform designed to efficiently manage notes. Built using React and Firebase Firestore",
-        "imageUrl": "/note-banner.png",
+        "imageUrl": "/note-banner.webp",
         "projectOverView": "A web app for creating, updating, and deleting notes and to-do lists, with persistent storage using local storage.",
         "techUsed": [
           {
@@ -322,7 +322,7 @@
       {
         "title": "RaiseIT",
         "subTitle": "RaiseIT is a mobile app for citizens to report grievances, interact and engage with local officers built with React Native, Firebase & Expo",
-        "imageUrl": "/raseit-banner.png",
+        "imageUrl": "/raseit-banner.webp",
         "projectOverView": "A mobile app that allows users to report civic issues to local authorities with images and GPS coordinates.",
         "techUsed": [
           {
@@ -353,7 +353,7 @@
       {
         "title": "Portfolio Website",
         "subTitle": "The Portfolio Application is a web platform designed to highlight an individual’s professional achievements, build using React and Material UI.",
-        "imageUrl": "/portfolio-banner.png",
+        "imageUrl": "/portfolio-banner.webp",
         "projectOverView": "A portfolio website showcasing personal projects, skills, and work experience. Built with a responsive design.",
         "techUsed": [
           {
@@ -384,7 +384,7 @@
       {
         "title": "Sanika Plast Business Portfolio",
         "subTitle": "Corporate portfolio site highlighting Sanika Plast Pvt. Ltd., a precision plastic manufacturing company in Pune.",
-        "imageUrl": "/sanikaplast-banner.png",
+        "imageUrl": "/sanikaplast-banner.webp",
         "projectOverView": "A professional web portfolio developed to showcase Sanika Plast Pvt. Ltd.'s manufacturing capabilities, certifications, client base, and contact features.",
         "techUsed": [
           {
@@ -431,7 +431,7 @@
       {
         "title": "Network Analyzer Tool",
         "subTitle": "The Network Analyzer Tool is a Python-based application for capturing and analyzing network traffic in real time Using Scapy",
-        "imageUrl": "/netwatcher-banner.png",
+        "imageUrl": "/netwatcher-banner.webp",
         "projectOverView": "A web app that fetches real-time weather updates for any location using a public API.",
         "techUsed": [
           {
